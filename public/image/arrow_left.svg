@@ -1,0 +1,7 @@
+<svg width="350" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark blue circle centered at (175, 125) -->
+  <circle cx="175" cy="125" r="90" fill="#162250"/>
+
+  <!-- Left arrow centered in the circle -->
+  <polygon points="175,95 175,120 200,120 200,130 175,130 175,155 145,125" fill="#dbe9ff"/>
+</svg>

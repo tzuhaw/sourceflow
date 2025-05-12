@@ -1,0 +1,149 @@
+/* Hover effect for footer links */
+.hover-warning:hover {
+  color: #ffc107 !important;
+}
+
+/* Custom background colors */
+.bg-primary {
+  background-color: #064EA4 !important;
+}
+.bg-warning{
+  background-color: #FCDF69 !important;
+}
+.bg-info{
+  background-color: #D7E7FB !important;
+}
+.bg-danger{
+    background-color: #F99D76 !important;
+}
+
+/* Custom text styles */
+.text-primary {
+  color: #0d47a1 !important;
+}
+
+.text-title {
+  color: #0E2152;
+}
+
+.text-content-primary {
+  color: #064EA4;
+  fill: currentColor;
+}
+.text-content-light {
+  color: #fff;
+  fill: currentColor;
+}
+
+.text-darkblue {
+  color: #0E2152;
+}
+
+.btn-outline-warning {
+  border-color: transparent;
+  background-color: #FCDF69;
+  color: #451B09;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem; 
+}
+
+.btn-outline-warning:hover {
+  background-color: #fff8e1;
+  color: #451B09;
+}
+
+.btn-danger {
+  background-color: #F99D76;
+  border-color: transparent;
+  color: #451B09;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem; 
+}
+
+.btn-danger:hover {
+  background-color: #fda489;
+  border-color: #f4511e;
+}
+
+.btn-warning{
+  background-color: #FCDF69;
+}
+
+/* Custom card styles */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Custom pagination styles */
+.page-link {
+  color: #0d47a1;
+  border: 1px solid #dee2e6;
+  margin: 0 3px;
+}
+
+.page-item.active .page-link {
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+}
+
+/* Custom form control focus */
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+/* Custom Rounded */
+.custom-left-rounded {
+  border-top-left-radius: 99px !important;
+  border-bottom-left-radius: 99px !important;
+}
+
+.custom-right-rounded {
+  border-top-right-radius: 99px !important;
+  border-bottom-right-radius: 99px !important;
+}
+
+.rounded-12px{
+  border-radius: 12px;
+}
+
+.top-left-bg{
+  z-index: 1;
+  position: absolute;
+  background-color: #F99D76;
+  width: 290px;
+  height: 290px;
+  clip-path: ellipse(40% 40% at 0% 0%);
+}
+.bottom-right-bg{
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: #FCDF69;
+  width: 290px;
+  height: 290px;
+  clip-path: circle(34.6% at 82% 82%);
+}
+
+/* Custom Width */
+.w-250{
+  width: 250px;
+}
+
+.max-width-80 {
+  max-width: 80px;
+}
+
+.image-16{
+  width: 16px;
+  height: 16px;
+}
